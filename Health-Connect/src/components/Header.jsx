@@ -8,15 +8,16 @@ const Header = () => {
 
        {/* -----Left Side----- */}
        <div className='ed:w-1/2 flex flex-col items-start justify-center gap-4 py-10 m-auto md:py-[10vw] md:mb-[-30px]'>
-         <p className='text-3xl md:text-4xl lg:text-5xl text-white font-semibold leading-tight md:leading-tight lg:leading-tight'>HealthConnect - <br />A Smart Health Appointment Management System</p>
-         <div>
-            <img src={assets.group_profiles} alt="" />
-            <p> HealthConnect is a comprehensive health appointment management platform that
- connects patients with doctors, streamlines appointment scheduling, and enhances
- the overall healthcare experience.</p>
+         <p className='text-3xl md:text-4xl lg:text-5xl text-white font-semibold leading-tight md:leading-tight lg:leading-tight'>HealthConnect - <br />A Smart Health <br /> Management System</p>
+         <div className='flex flex-col md:flex-row items-center gap-5 text-white text-[13px] font-light '>
+            <img className='w-38' src={assets.group_profiles} alt="" />
+            <p className=''> HealthConnect is a comprehensive health appointment<br />
+             management platform that connects patients with doctors,<br /> 
+             streamlines appointment scheduling, and enhances the overall <br />
+              healthcare experience.</p>
          </div>
-         <a href="">
-            Book appointment <img src={assets.arrow_icon} alt="" />
+         <a href="#speciality" className='flex items-center gap-2 bg-white px-8 py-3 rounded-full text-gray-600 text-sm m-auto md:m-0 hover:scale-105 transition-all duration-300' >
+            Book appointment <img className='w-3' src={assets.arrow_icon} alt="" />
          </a>
         </div> 
 
