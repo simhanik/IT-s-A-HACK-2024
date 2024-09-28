@@ -21,7 +21,7 @@ const Appointment = () => {
       {/* -----------------Doctor Details ------------------*/}
       <div className='flex flex-col sm:flex-row gap-4'>
         <div>
-          <img className='flex-1 border border-gray-400 rounded-lg p-8 py-7 bg-white mx-2 sm:mx-0 mt' src={docInfo.image} alt="" />
+          <img className='flex-1 border border-gray-400 rounded-lg p-8 py-7 bg-white mx-2 sm:mx-0 mt-[-80px]' src={docInfo.image} alt="" />
         </div>
         <div>
           {/* ----------------Doc Info : name , degree,experience ----------------------*/}
