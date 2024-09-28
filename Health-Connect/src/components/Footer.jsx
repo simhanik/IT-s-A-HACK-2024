@@ -1,13 +1,13 @@
-import React from 'react';
+
 import { assets } from '../assets/assets';
 
 const Footer = () => {
   return (
-    <div className='md:mx-10'>
+    <div className='md:mx-10 rounded-md'>
       <div className='flex flex-col sm:grid grid-cols-[3fr_1fr_1fr] gap-14 my-10 mt-40 text-sm'>
         <div>
           <img className='' src={assets.logo} alt="HealthConnect Logo" />
-          <p className='w-full md:w-2/3 text-gray-600 leading-6 '>
+          <p className='w-full md:w-2/3 text-gray-600 leading-6 tex'>
             HealthConnect is a comprehensive health appointment management platform that
             connects patients with doctors, streamlines appointment scheduling, and enhances
             the overall healthcare experience. With advanced features like AI-powered doctor
@@ -36,7 +36,7 @@ const Footer = () => {
       </div>
       <div>
         <hr />
-        <p className='py-5 text-sm text-center'>Copyright 2024 @ HealthConnect - All Rights Reserved.</p>
+        <p className='py-5 text-white text-sm text-center bg-gray-900 rounded-sm'>Copyright 2024 @ HealthConnect - All Rights Reserved.</p>
       </div>
     </div>
   );
