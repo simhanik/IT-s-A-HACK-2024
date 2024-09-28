@@ -6,7 +6,7 @@ const Footer = () => {
     <div className='md:mx-10 rounded-md'>
       <div className='flex flex-col sm:grid grid-cols-[3fr_1fr_1fr] gap-14 my-10 mt-40 text-sm'>
         <div>
-          <img className='' src={assets.logo} alt="HealthConnect Logo" />
+          <img className='' src={assets.logo1} alt="HealthConnect Logo" />
           <p className='w-full md:w-2/3 text-gray-600 leading-6 tex'>
             HealthConnect is a comprehensive health appointment management platform that
             connects patients with doctors, streamlines appointment scheduling, and enhances
