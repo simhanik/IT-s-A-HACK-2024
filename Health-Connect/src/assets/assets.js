@@ -88,7 +88,7 @@ export const specialityData = [
 export const doctors = [
     {
         _id: 'doc1',
-        name: 'Dr. Richard James',
+        name: 'Dr. Rajeev Gupta',
         image: doc1,
         speciality: 'General physician',
         degree: 'MBBS',
@@ -96,13 +96,13 @@ export const doctors = [
         about: 'Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies. Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies.',
         fees: 50,
         address: {
-            line1: '17th Cross, Richmond',
-            line2: 'Circle, Ring Road, London'
+            line1: 'Contractor Colony, Sirsa Road',
+            line2: 'Ram Nagar, Supela, Bhilai'
         }
     },
     {
         _id: 'doc2',
-        name: 'Dr. Emily Larson',
+        name: 'Dr. Sumitra Malhotra',
         image: doc2,
         speciality: 'Gynecologist',
         degree: 'MBBS',
@@ -110,13 +110,13 @@ export const doctors = [
         about: 'Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies. Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies.',
         fees: 60,
         address: {
-            line1: '27th Cross, Richmond',
-            line2: 'Circle, Ring Road, London'
+            line1: 'Street 17, Pravesh Colony',
+            line2: 'Sector 7, Bhilai'
         }
     },
     {
         _id: 'doc3',
-        name: 'Dr. Sarah Patel',
+        name: 'Dr. Swapn Patel',
         image: doc3,
         speciality: 'Dermatologist',
         degree: 'MBBS',
@@ -124,8 +124,8 @@ export const doctors = [
         about: 'Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies. Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies.',
         fees: 30,
         address: {
-            line1: '37th Cross, Richmond',
-            line2: 'Circle, Ring Road, London'
+            line1: 'Street 3, Agrasen Chowk',
+            line2: 'Shankar Nagar, Durg'
         }
     },
     {
@@ -138,8 +138,8 @@ export const doctors = [
         about: 'Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies. Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies.',
         fees: 40,
         address: {
-            line1: '47th Cross, Richmond',
-            line2: 'Circle, Ring Road, London'
+            line1: 'Savitri Colony',
+            line2: 'Pachari Para, Durg'
         }
     },
     {
